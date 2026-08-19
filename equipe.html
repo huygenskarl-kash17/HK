@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fiche Équipe - Entente de Kipushi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/equipes.css">
+<link rel="stylesheet" href="css/equipe.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<div id="toast"></div>
+<header>
+<div class="menu-toggle">☰</div>
+<div class="logo">
+    <img src="images/logo-entente.svg" alt="logo">
+    <div><span>ENTENTE DE KIPUSHI</span><span class="logo-sub">Championnat de football</span></div>
+</div>
+<nav>
+<ul>
+<li><a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a></li>
+<li><a href="competition.html"><i class="fa-solid fa-trophy"></i> Compétition</a></li>
+<li><a href="equipes.html" class="active"><i class="fa-solid fa-shield-halved"></i> Équipes</a></li>
+<li><a href="calendrier.html"><i class="fa-solid fa-calendar-days"></i> Calendrier</a></li>
+<li><a href="classement.html"><i class="fa-solid fa-ranking-star"></i> Classement</a></li>
+<li><a href="statistiques.html"><i class="fa-solid fa-chart-simple"></i> Statistiques</a></li>
+<li><a href="annonces.html"><i class="fa-solid fa-bullhorn"></i> Annonces</a></li>
+<li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+</ul>
+</nav>
+<div class="nav-social-mini">
+<a href="#" aria-label="Facebook" class="ico-facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" aria-label="WhatsApp" class="ico-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" aria-label="YouTube" class="ico-youtube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" aria-label="Instagram" class="ico-instagram"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</header>
+
+<main>
+<section class="equipe-detail-page">
+
+<a href="equipes.html" class="retour-lien reveal"><i class="fa-solid fa-arrow-left"></i> Retour aux équipes</a>
+
+<!-- Etat "équipe introuvable" -->
+<div id="equipe-introuvable" class="container" style="display:none;">
+    <p class="ek-introuvable">Équipe introuvable. <a href="equipes.html">Retourner à la liste des équipes</a>.</p>
+</div>
+
+<div id="equipe-contenu">
+
+    <!-- HERO -->
+    <div class="equipe-hero reveal-zoom" id="equipe-hero">
+        <div class="hero-skel">
+            <div class="ek-skeleton skel-bloc" style="width:120px;height:130px;margin:0 auto;"></div>
+            <div class="ek-skeleton skel-ligne" style="width:220px;"></div>
+        </div>
+    </div>
+
+    <div class="container">
+
+    <!-- ONGLETS -->
+    <div class="equipe-onglets stagger" id="equipe-onglets">
+        <button class="onglet-btn actif" data-cible="onglet-histoire" style="--i:0"><i class="fa-solid fa-book-open"></i> Histoire</button>
+        <button class="onglet-btn" data-cible="onglet-palmares" style="--i:1"><i class="fa-solid fa-trophy"></i> Palmarès</button>
+        <button class="onglet-btn" data-cible="onglet-effectif" style="--i:2"><i class="fa-solid fa-people-group"></i> Effectif</button>
+        <button class="onglet-btn" data-cible="onglet-parcours" style="--i:3"><i class="fa-solid fa-calendar-check"></i> Parcours</button>
+        <button class="onglet-btn" data-cible="onglet-medias" style="--i:4"><i class="fa-solid fa-photo-film"></i> Photos &amp; Vidéos</button>
+    </div>
+
+    <!-- HISTOIRE -->
+    <div class="onglet-panneau actif" id="onglet-histoire">
+        <div class="card panneau-card reveal" id="bloc-histoire">
+            <p>Chargement...</p>
+        </div>
+    </div>
+
+    <!-- PALMARES -->
+    <div class="onglet-panneau" id="onglet-palmares">
+        <div class="card panneau-card reveal">
+            <h3><i class="fa-solid fa-trophy"></i> Palmarès du club</h3>
+            <ul class="palmares-liste" id="palmares-liste">
+                <li>Chargement...</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- EFFECTIF -->
+    <div class="onglet-panneau" id="onglet-effectif">
+        <p class="effectif-sub reveal">Liste des joueurs enregistrés pour le championnat.</p>
+
+        <p class="staff-titre reveal" id="staff-titre" style="display:none;">Staff technique</p>
+        <div class="staff-grille stagger" id="staff-grille"></div>
+
+        <div class="recherche-box reveal">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="recherche-joueur" placeholder="Rechercher un joueur...">
+        </div>
+        <div class="joueurs-grille stagger" id="joueurs-grille">
+            <p>Chargement...</p>
+        </div>
+    </div>
+
+    <!-- PARCOURS -->
+    <div class="onglet-panneau" id="onglet-parcours">
+        <div class="parcours-resume stagger" id="parcours-resume"></div>
+        <div id="parcours-matchs"><p>Chargement...</p></div>
+    </div>
+
+    <!-- MEDIAS -->
+    <div class="onglet-panneau" id="onglet-medias">
+        <h3 class="medias-titre reveal"><i class="fa-solid fa-images"></i> Galerie photos</h3>
+        <div class="galerie-grille stagger" id="galerie-grille"></div>
+
+        <h3 class="medias-titre reveal"><i class="fa-solid fa-clapperboard"></i> Vidéos</h3>
+        <div class="videos-grille stagger" id="videos-grille">
+            <p class="aucune-video">Aucune vidéo publiée pour le moment.</p>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+</section>
+</main>
+
+<div class="lightbox" id="lightbox">
+    <button class="fermer" id="lightbox-fermer"><i class="fa-solid fa-xmark"></i></button>
+    <img src="" alt="" id="lightbox-img">
+</div>
+
+<footer>
+<div class="footer-logo"><img src="images/logo-entente.svg" alt="logo"> Entente de Kipushi</div>
+<p class="footer-slogan">Le championnat qui fait vibrer tous les quartiers de Kipushi.</p>
+
+<div class="footer-partenaires">
+    <p class="footer-partenaires-titre">Ils soutiennent l'Entente de Kipushi</p>
+    <div class="partenaires-grille">
+<div class="partenaire-chip"><img src="images/partners/equa-pichon.svg" alt="Equa Pichon"><span>Equa Pichon</span></div>
+<div class="partenaire-chip"><img src="images/partners/usalama.svg" alt="Usalama"><span>Usalama</span></div>
+<div class="partenaire-chip"><img src="images/partners/munana-group.svg" alt="Munana Group"><span>Munana Group</span></div>
+<div class="partenaire-chip"><img src="images/partners/kamarenge.svg" alt="Kamarenge"><span>Kamarenge</span></div>
+<div class="partenaire-chip"><img src="images/partners/kipushi-mining-corp.svg" alt="Kipushi Mining Corp"><span>Kipushi Mining Corp</span></div>
+<div class="partenaire-chip"><img src="images/partners/lubumbashi-motors.svg" alt="Lubumbashi Motors"><span>Lubumbashi Motors</span></div>
+<div class="partenaire-chip"><img src="images/partners/katanga-fresh.svg" alt="Katanga Fresh"><span>Katanga Fresh</span></div>
+<div class="partenaire-chip"><img src="images/partners/delta-telecom.svg" alt="Delta Telecom"><span>Delta Telecom</span></div>
+    </div>
+    </div>
+</div>
+
+<div class="footer-icons">
+<a href="#" class="icon-link ico-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" class="icon-link ico-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" class="icon-link ico-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" class="icon-link ico-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" class="icon-link ico-telegram" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+<a href="#" class="icon-link ico-x" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+<a href="#" class="icon-link ico-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#" class="icon-link ico-tiktok" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+
+<div class="footer-bas">
+<p>© 2026 Entente de Kipushi — Tous droits réservés</p>
+<p class="footer-credit">Championnat organisé par l'Entente Sportive de Kipushi</p>
+</div>
+</footer>
+
+<script defer src="js/script.js"></script>
+<script defer src="js/equipe-detail.js"></script>
+</body>
+</html>

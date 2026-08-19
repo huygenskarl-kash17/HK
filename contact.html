@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Entente de Kipushi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<div id="toast"></div>
+<header>
+<div class="menu-toggle">☰</div>
+<div class="logo">
+    <img src="images/logo-entente.svg" alt="logo">
+    <div><span>ENTENTE DE KIPUSHI</span><span class="logo-sub">Championnat de football</span></div>
+</div>
+<nav>
+<ul>
+<li><a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a></li>
+<li><a href="competition.html"><i class="fa-solid fa-trophy"></i> Compétition</a></li>
+<li><a href="equipes.html"><i class="fa-solid fa-shield-halved"></i> Équipes</a></li>
+<li><a href="calendrier.html"><i class="fa-solid fa-calendar-days"></i> Calendrier</a></li>
+<li><a href="classement.html"><i class="fa-solid fa-ranking-star"></i> Classement</a></li>
+<li><a href="statistiques.html"><i class="fa-solid fa-chart-simple"></i> Statistiques</a></li>
+<li><a href="annonces.html"><i class="fa-solid fa-bullhorn"></i> Annonces</a></li>
+<li><a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+</ul>
+</nav>
+<div class="nav-social-mini">
+<a href="#" aria-label="Facebook" class="ico-facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" aria-label="WhatsApp" class="ico-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" aria-label="YouTube" class="ico-youtube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" aria-label="Instagram" class="ico-instagram"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</header>
+
+<main>
+
+<!-- =========================================================
+     EN-TÊTE
+     ========================================================= -->
+<section class="contact-hero">
+    <div class="contact-hero-texte reveal-left">
+        <span class="contact-oeil" id="contact-oeil"><i class="fa-solid fa-comments"></i> <span id="contact-oeil-texte">Chargement...</span></span>
+        <h1 id="contact-titre"></h1>
+        <p id="contact-texte"></p>
+        <div class="confiance-row" id="contact-confiance"></div>
+    </div>
+    <div class="contact-hero-visuel reveal-right" aria-hidden="true">
+        <div class="chv-halo"></div>
+        <img class="chv-logo" src="images/logo-entente.svg" alt="">
+        <img class="chv-badge b1 flotte" src="images/badges/ajax-club.svg" alt="">
+        <img class="chv-badge b2 flotte-lent" src="images/badges/us-kipushi.svg" alt="">
+        <img class="chv-badge b3 flotte" src="images/badges/fc-tourbillon.svg" alt="">
+        <img class="chv-badge b4 flotte-lent" src="images/badges/js-porte-des-cieux.svg" alt="">
+    </div>
+</section>
+
+<!-- =========================================================
+     FORMULAIRE + COORDONNÉES
+     ========================================================= -->
+<section class="contact-corps container">
+<div class="contact-grille">
+
+    <div class="contact-form-panel reveal">
+        <h2>Envoyer un message</h2>
+        <p class="panel-sub">Les champs marqués d'un <strong>*</strong> sont obligatoires.</p>
+
+        <form id="formContact" novalidate>
+
+            <div class="champ-ligne">
+                <div class="champ">
+                    <label for="cNom">Nom complet *</label>
+                    <input type="text" id="cNom" name="nom" placeholder="Ex. Jean Mukendi" required minlength="2">
+                    <span class="champ-erreur">Merci d'indiquer votre nom.</span>
+                </div>
+                <div class="champ">
+                    <label for="cTel">Téléphone / WhatsApp</label>
+                    <input type="tel" id="cTel" name="telephone" placeholder="+243 9XX XXX XXX">
+                </div>
+            </div>
+
+            <div class="champ">
+                <label for="cEmail">Adresse e-mail *</label>
+                <input type="email" id="cEmail" name="email" placeholder="vous@exemple.com" required>
+                <span class="champ-erreur">Merci d'indiquer une adresse e-mail valide.</span>
+            </div>
+
+            <div class="champ">
+                <label for="cSujet">Objet de votre message *</label>
+                <select id="cSujet" name="sujet" required>
+                    <option value="" disabled selected>Choisissez un objet</option>
+                </select>
+                <span class="champ-erreur">Merci de choisir un objet.</span>
+            </div>
+
+            <div class="champ">
+                <label for="cMessage">Votre message *</label>
+                <textarea id="cMessage" name="message" rows="6" placeholder="Décrivez votre demande en quelques lignes..." required minlength="10" maxlength="600"></textarea>
+                <div class="champ-pied">
+                    <span class="champ-erreur">Votre message doit contenir au moins 10 caractères.</span>
+                    <span class="compteur" id="compteurMsg">0 / 600</span>
+                </div>
+            </div>
+
+            <label class="champ-checkbox">
+                <input type="checkbox" id="cNewsletter" name="newsletter">
+                <span>Me tenir informé des résultats et annonces de l'Entente de Kipushi</span>
+            </label>
+
+            <button type="submit" class="btn btn-envoi" id="btnEnvoi">
+                <i class="fa-solid fa-paper-plane"></i> Envoyer le message
+            </button>
+        </form>
+
+        <div class="form-succes" id="formSucces" hidden>
+            <i class="fa-solid fa-circle-check"></i>
+            <h3>Votre application de messagerie va s'ouvrir</h3>
+            <p>Nous avons préparé votre message : il ne reste qu'à cliquer sur "Envoyer" dans votre boîte mail.
+            Vous pouvez aussi nous écrire directement via WhatsApp pour une réponse plus rapide.</p>
+            <button type="button" class="btn btn-outline" id="btnNouveauMessage">Rédiger un autre message</button>
+        </div>
+    </div>
+
+    <aside class="contact-info-panel reveal">
+        <h2>Coordonnées directes</h2>
+        <ul class="info-liste" id="contact-coordonnees"></ul>
+
+        <a class="whatsapp-cta" id="contact-whatsapp-cta" href="#" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span><strong>Discuter sur WhatsApp</strong><small>Le canal le plus rapide</small></span>
+            <i class="fa-solid fa-arrow-right fleche"></i>
+        </a>
+
+        <h3>Suivez la compétition</h3>
+        <div class="chips-sociaux" id="contact-reseaux"></div>
+    </aside>
+
+</div>
+</section>
+
+<!-- =========================================================
+     FAQ
+     ========================================================= -->
+<section class="faq-section container">
+    <h2 class="sous-titre">Questions fréquentes</h2>
+    <div class="faq-liste" id="contact-faq"></div>
+</section>
+
+<!-- =========================================================
+     LOCALISATION
+     ========================================================= -->
+<section class="carte-section container" id="carte">
+    <div class="carte-wrap reveal">
+        <iframe class="carte-embed" id="contact-carte-embed" loading="lazy"
+            src="" title="Localisation de l'Entente de Kipushi"></iframe>
+    </div>
+    <div class="carte-legende reveal">
+        <h3><i class="fa-solid fa-location-dot"></i> Nous trouver</h3>
+        <p id="contact-carte-legende"></p>
+        <a class="btn btn-outline" id="contact-carte-lien" href="#" target="_blank" rel="noopener">
+            <i class="fa-solid fa-diamond-turn-right"></i> Ouvrir dans Maps
+        </a>
+    </div>
+</section>
+
+</main>
+
+<a class="whatsapp-flottant" id="contact-whatsapp-flottant" href="#" target="_blank" rel="noopener" aria-label="Discuter sur WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<footer>
+<div class="footer-logo"><img src="images/logo-entente.svg" alt="logo"> Entente de Kipushi</div>
+<p class="footer-slogan">Le championnat qui fait vibrer tous les quartiers de Kipushi.</p>
+
+<div class="footer-partenaires">
+    <p class="footer-partenaires-titre">Ils soutiennent l'Entente de Kipushi</p>
+    <div class="partenaires-grille">
+<div class="partenaire-chip"><img src="images/partners/equa-pichon.svg" alt="Equa Pichon"><span>Equa Pichon</span></div>
+<div class="partenaire-chip"><img src="images/partners/usalama.svg" alt="Usalama"><span>Usalama</span></div>
+<div class="partenaire-chip"><img src="images/partners/munana-group.svg" alt="Munana Group"><span>Munana Group</span></div>
+<div class="partenaire-chip"><img src="images/partners/kamarenge.svg" alt="Kamarenge"><span>Kamarenge</span></div>
+<div class="partenaire-chip"><img src="images/partners/kipushi-mining-corp.svg" alt="Kipushi Mining Corp"><span>Kipushi Mining Corp</span></div>
+<div class="partenaire-chip"><img src="images/partners/lubumbashi-motors.svg" alt="Lubumbashi Motors"><span>Lubumbashi Motors</span></div>
+<div class="partenaire-chip"><img src="images/partners/katanga-fresh.svg" alt="Katanga Fresh"><span>Katanga Fresh</span></div>
+<div class="partenaire-chip"><img src="images/partners/delta-telecom.svg" alt="Delta Telecom"><span>Delta Telecom</span></div>
+
+    </div>
+    </div>
+</div>
+
+<div class="footer-icons">
+<a href="#" class="icon-link ico-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" class="icon-link ico-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" class="icon-link ico-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" class="icon-link ico-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" class="icon-link ico-telegram" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+<a href="#" class="icon-link ico-x" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+<a href="#" class="icon-link ico-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#" class="icon-link ico-tiktok" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+
+<div class="footer-bas">
+<p>© 2026 Entente de Kipushi — Tous droits réservés</p>
+<p class="footer-credit">Championnat organisé par l'Entente Sportive de Kipushi</p>
+</div>
+</footer>
+<script defer src="js/script.js"></script>
+<script defer src="js/contact.js"></script>
+</body>
+</html>

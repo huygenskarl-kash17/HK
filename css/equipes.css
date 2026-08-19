@@ -1,0 +1,15 @@
+.equipes-page{ padding-bottom:50px; }
+.equipes-sub{ text-align:center; color:var(--texte-doux); margin-bottom:0; }
+
+.cards{ display:grid; grid-template-columns:repeat(4, 1fr); gap:22px; }
+
+.equipe-card{ text-align:center; padding:26px 18px; position:relative; overflow:visible; }
+.equipe-card .barre-couleur{ position:absolute; top:0; left:0; right:0; height:4px; border-radius:var(--rayon) var(--rayon) 0 0; }
+.equipe-card .badge-equipe{ width:74px; height:86px; margin:14px auto 16px; object-fit:contain; transition:var(--transition); }
+.equipe-card:hover .badge-equipe{ transform:scale(1.05); }
+.equipe-card h2{ font-size:0.96rem; color:var(--texte); margin-bottom:6px; font-weight:700; }
+.equipe-card .maillot-mini{ display:flex; justify-content:center; gap:6px; margin-top:10px; }
+.equipe-card .maillot-mini span{ width:18px; height:18px; border-radius:4px; display:inline-block; border:1px solid rgba(0,0,0,0.15); }
+
+@media(max-width:1000px){ .cards{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:560px){ .cards{ grid-template-columns:1fr; } }

@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "oeil": "Parlons-en",
+    "titre_avant": "Une question ? Un projet pour votre club ? ",
+    "titre_accent": "Écrivez à l'Entente.",
+    "texte": "Le secrétariat de l'Entente de Kipushi lit chaque message — inscription d'équipe, partenariat, presse, ou simple question sur un match. Choisissez le canal qui vous convient le mieux.",
+    "confiance": [
+      {
+        "icone": "fa-solid fa-bolt",
+        "texte": "Réponse sous 24-48h"
+      },
+      {
+        "icone": "fa-solid fa-users",
+        "texte": "16 clubs représentés"
+      },
+      {
+        "icone": "fa-solid fa-map-pin",
+        "texte": "Basés à Kipushi, RDC"
+      }
+    ]
+  },
+  "coordonnees": {
+    "adresse_nom": "Secrétariat de l'Entente",
+    "adresse": "Avenue de la Frontière, Quartier Gare, Kipushi, Haut-Katanga, RDC",
+    "telephone": "+243 990 445 217",
+    "telephone_lien": "+243990445217",
+    "email": "secretariat@ententekipushi.cd",
+    "horaires": "Lundi – Vendredi, 9h – 16h · Samedi (jour de match), 12h – 20h"
+  },
+  "whatsapp": {
+    "numero": "243990445217",
+    "message_pre_rempli": "Bonjour l'Entente de Kipushi,"
+  },
+  "reseaux_sociaux": [
+    {
+      "nom": "Facebook",
+      "icone": "fa-brands fa-facebook",
+      "classe": "facebook",
+      "lien": "#"
+    },
+    {
+      "nom": "Instagram",
+      "icone": "fa-brands fa-instagram",
+      "classe": "instagram",
+      "lien": "#"
+    },
+    {
+      "nom": "WhatsApp",
+      "icone": "fa-brands fa-whatsapp",
+      "classe": "whatsapp",
+      "lien": "#"
+    },
+    {
+      "nom": "YouTube",
+      "icone": "fa-brands fa-youtube",
+      "classe": "youtube",
+      "lien": "#"
+    },
+    {
+      "nom": "TikTok",
+      "icone": "fa-brands fa-tiktok",
+      "classe": "tiktok",
+      "lien": "#"
+    },
+    {
+      "nom": "Telegram",
+      "icone": "fa-brands fa-telegram",
+      "classe": "telegram",
+      "lien": "#"
+    },
+    {
+      "nom": "X",
+      "icone": "fa-brands fa-square-x-twitter",
+      "classe": "x",
+      "lien": "#"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Comment inscrire une nouvelle équipe pour la saison prochaine ?",
+      "reponse": "Envoyez-nous un message via le formulaire ci-dessus en choisissant l'objet \"Inscription d'une équipe\", ou passez directement au secrétariat un samedi de match. Les inscriptions pour la saison suivante ouvrent généralement un mois avant le coup d'envoi.",
+      "ouvert_par_defaut": true
+    },
+    {
+      "question": "En combien de temps recevrai-je une réponse ?",
+      "reponse": "Sous 24 à 48h ouvrées par e-mail. Pour une réponse plus rapide, privilégiez WhatsApp les jours de match.",
+      "ouvert_par_defaut": false
+    },
+    {
+      "question": "Où puis-je suivre les résultats en direct ?",
+      "reponse": "Toute la compétition se suit gratuitement sur ce site : la page <a href=\"calendrier.html\">Calendrier</a> pour les rencontres, <a href=\"classement.html\">Classement</a> pour le classement général, et <a href=\"annonces.html\">Annonces</a> pour les communiqués et le programme des semaines à venir.",
+      "ouvert_par_defaut": false
+    },
+    {
+      "question": "Comment devenir partenaire ou sponsor de l'Entente ?",
+      "reponse": "Écrivez-nous avec l'objet \"Partenariat &amp; sponsoring\" en précisant votre secteur d'activité et vos attentes. Un membre du bureau de l'Entente reviendra vers vous avec les formules de visibilité disponibles (maillots, panneaux de stade, site officiel).",
+      "ouvert_par_defaut": false
+    },
+    {
+      "question": "Un problème technique sur le site ou une erreur de score ?",
+      "reponse": "Signalez-le-nous via le formulaire (objet \"Signaler un problème sur le site\") en précisant la page et, si possible, une capture d'écran. Nous corrigeons généralement dans la journée.",
+      "ouvert_par_defaut": false
+    }
+  ],
+  "carte": {
+    "embed_url": "https://www.openstreetmap.org/export/embed.html?bbox=27.2081%2C-11.7942%2C27.2881%2C-11.7342&layer=mapnik&marker=-11.7642%2C27.2481",
+    "maps_lien": "https://www.google.com/maps/search/?api=1&query=Kipushi,+Haut-Katanga,+RDC",
+    "legende": "Secrétariat de l'Entente de Kipushi<br>Avenue de la Frontière, Quartier Gare<br>Kipushi, Haut-Katanga, République Démocratique du Congo"
+  },
+  "sujets_formulaire": [
+    "Question générale",
+    "Inscription d'une équipe",
+    "Partenariat & sponsoring",
+    "Presse & médias",
+    "Signaler un problème",
+    "Autre"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "intro": "L'Entente de Kipushi est le championnat de football qui réunit 16 équipes de la ville de Kipushi, dans une compétition structurée comme une véritable grande ligue : matchs aller-retour, classement général, et un vrai suivi statistique de chaque joueur et de chaque équipe."
+  },
+  "presentation": {
+    "titre": "Une compétition pensée pour durer",
+    "paragraphes": [
+      "Depuis sa création, l'Entente de Kipushi a pour ambition de structurer durablement le football local en donnant à chaque quartier une équipe représentative, et à chaque joueur une vraie vitrine pour exprimer son talent. Le format en championnat (aller-retour, tous contre tous) garantit une compétition juste et équilibrée sur toute la saison.",
+      "Chaque journée est suivie de près : résultats, classement actualisé, meilleurs buteurs et passeurs, homme du match — tout est pensé pour que joueurs, supporters et familles vivent la compétition comme un vrai championnat professionnel.",
+      "Au-delà du sport, l'Entente de Kipushi est un projet de rassemblement : il donne à la jeunesse un cadre sain, compétitif et fédérateur, où le fair-play et le respect restent les valeurs centrales de chaque rencontre."
+    ]
+  },
+  "format": [
+    {
+      "icone": "fa-solid fa-shield-halved",
+      "titre": "16 équipes",
+      "texte": "Toutes les équipes s'affrontent en matchs aller-retour sur toute la saison."
+    },
+    {
+      "icone": "fa-solid fa-calendar-days",
+      "titre": "30 journées",
+      "texte": "Un calendrier complet, avec plusieurs rencontres chaque journée."
+    },
+    {
+      "icone": "fa-solid fa-ranking-star",
+      "titre": "Classement général",
+      "texte": "3 points par victoire, 1 point par match nul, comme les plus grands championnats."
+    },
+    {
+      "icone": "fa-solid fa-trophy",
+      "titre": "Un seul vainqueur",
+      "texte": "L'équipe la mieux classée à la fin de la saison est sacrée championne."
+    }
+  ],
+  "reglement": [
+    {
+      "icone": "fa-solid fa-check",
+      "couleur": null,
+      "texte": "Victoire = 3 points, match nul = 1 point, défaite = 0 point."
+    },
+    {
+      "icone": "fa-solid fa-check",
+      "couleur": null,
+      "texte": "En cas d'égalité de points, la différence de buts départage les équipes."
+    },
+    {
+      "icone": "fa-solid fa-check",
+      "couleur": null,
+      "texte": "Chaque équipe affronte toutes les autres deux fois (aller et retour)."
+    },
+    {
+      "icone": "fa-solid fa-check",
+      "couleur": null,
+      "texte": "Le fair-play et le respect de l'arbitrage sont des valeurs fondamentales de la compétition."
+    },
+    {
+      "icone": "fa-solid fa-check",
+      "couleur": null,
+      "texte": "Les statistiques individuelles (buts, passes décisives) sont suivies tout au long de la saison."
+    },
+    {
+      "icone": "fa-solid fa-square",
+      "couleur": "#e8c400",
+      "texte": "3 cartons jaunes reçus de suite par un joueur entraînent une suspension automatique pour le match suivant."
+    },
+    {
+      "icone": "fa-solid fa-square",
+      "couleur": "#c0392b",
+      "texte": "Un carton rouge entraîne une suspension automatique pour le match suivant."
+    },
+    {
+      "icone": "fa-solid fa-triangle-exclamation",
+      "couleur": null,
+      "texte": "Un match déclaré forfait est comptabilisé 3-0 en faveur de l'équipe adverse."
+    },
+    {
+      "icone": "fa-solid fa-location-dot",
+      "couleur": null,
+      "texte": "Tous les matchs du championnat se jouent au terrain SAFRICAS KICO."
+    }
+  ]
+}

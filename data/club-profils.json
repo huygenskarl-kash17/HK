@@ -1,0 +1,374 @@
+{
+  "js-porte-des-cieux": {
+    "surnom": "Les Anges de Kipushi",
+    "fondation": 1998,
+    "stade": "Terrain Porte des Cieux",
+    "histoire": "Fondée dans le quartier autour de la paroisse, la JS Porte des Cieux a longtemps été le club des jeunes de la communauté avant de s'imposer parmi les équipes respectées de l'Entente. Son jeu discipliné et son esprit de groupe font sa réputation.",
+    "fait_marquant": "Demi-finaliste surprise lors d'une précédente édition du tournoi communal.",
+    "palmares": [
+      {
+        "saison": "Exemple 2022",
+        "titre": "Vice-champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2019",
+        "titre": "Finaliste de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "cs-kamarenge": {
+    "surnom": "Les Lions de Kamarenge",
+    "fondation": 2001,
+    "stade": "Terrain communal de Kamarenge",
+    "histoire": "Le CS Kamarenge représente fièrement son quartier, réputé pour la ferveur de ses supporters. L'équipe mise sur une défense solide et des attaquants rapides formés localement.",
+    "fait_marquant": "Une des équipes les plus régulières de l'Entente ces dernières saisons.",
+    "palmares": [
+      {
+        "saison": "Exemple 2021",
+        "titre": "Champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2020",
+        "titre": "Meilleure défense du championnat"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-talents-de-kipushi": {
+    "surnom": "Les Étoiles Montantes",
+    "fondation": 2010,
+    "stade": "Terrain des Talents",
+    "histoire": "Comme son nom l'indique, le FC Talents de Kipushi mise avant tout sur la formation des jeunes joueurs du quartier. Plusieurs de ses anciens éléments ont rejoint des clubs plus huppés de la région.",
+    "fait_marquant": "Club pépinière reconnu pour la qualité de son centre de formation local.",
+    "palmares": [
+      {
+        "saison": "Exemple 2023",
+        "titre": "Champion de la catégorie jeunes"
+      },
+      {
+        "saison": "Exemple 2018",
+        "titre": "Demi-finaliste de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "js-kamatete": {
+    "surnom": "Les Guerriers de Kamatete",
+    "fondation": 1995,
+    "stade": "Terrain de Kamatete",
+    "histoire": "La JS Kamatete est l'un des clubs historiques de l'Entente, connue pour son combat sur le terrain et la loyauté indéfectible de ses supporters de longue date.",
+    "fait_marquant": "L'un des clubs fondateurs encore actifs dans le championnat.",
+    "palmares": [
+      {
+        "saison": "Exemple 2017",
+        "titre": "Champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2015",
+        "titre": "Vice-champion de l'Entente de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-kmb": {
+    "surnom": "Les Bâtisseurs",
+    "fondation": 2005,
+    "stade": "Terrain KMB",
+    "histoire": "Le FC KMB s'est construit patiemment, saison après saison, jusqu'à devenir un habitué du haut de tableau. Son jeu collectif et sa rigueur tactique sont largement salués.",
+    "fait_marquant": "Progression constante au classement ces trois dernières saisons.",
+    "palmares": [
+      {
+        "saison": "Exemple 2022",
+        "titre": "3ème place de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2020",
+        "titre": "Finaliste de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-munana": {
+    "surnom": "Les Fauves de Munana",
+    "fondation": 2000,
+    "stade": "Terrain de Munana",
+    "histoire": "Le FC Munana est réputé pour son attaque spectaculaire et ses matchs riches en buts. Le club entretient une rivalité amicale historique avec plusieurs voisins du championnat.",
+    "fait_marquant": "Meilleure attaque du championnat lors d'une précédente saison.",
+    "palmares": [
+      {
+        "saison": "Exemple 2019",
+        "titre": "Meilleure attaque de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2016",
+        "titre": "Champion de l'Entente de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-tourbillon": {
+    "surnom": "Le Tourbillon Jaune",
+    "fondation": 2008,
+    "stade": "Terrain Tourbillon",
+    "histoire": "Fidèle à son nom, le FC Tourbillon impressionne par l'intensité de son pressing et son rythme de jeu élevé, porté par un collectif jeune et généreux à l'effort.",
+    "fait_marquant": "Équipe la plus endurante du championnat selon les observateurs locaux.",
+    "palmares": [
+      {
+        "saison": "Exemple 2021",
+        "titre": "Demi-finaliste de la Coupe de Kipushi"
+      },
+      {
+        "saison": "Exemple 2014",
+        "titre": "Champion de l'Entente de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "real-corcelone": {
+    "surnom": "Les Royaux",
+    "fondation": 2003,
+    "stade": "Terrain Corcelone",
+    "histoire": "Le Real Corcelone cultive une image d'élégance et d'exigence, avec un style de jeu léché et une volonté constante de représenter dignement son quartier dans l'Entente.",
+    "fait_marquant": "Club au style de jeu souvent cité en exemple par les autres entraîneurs.",
+    "palmares": [
+      {
+        "saison": "Exemple 2018",
+        "titre": "Vice-champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2013",
+        "titre": "Champion de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-bana-kipushi": {
+    "surnom": "Les Enfants de Kipushi",
+    "fondation": 1990,
+    "stade": "Terrain Bana Kipushi",
+    "histoire": "Le FC Bana Kipushi porte fièrement le nom de la cité et rassemble des générations entières de familles autour de ses matchs, dans une ambiance toujours conviviale.",
+    "fait_marquant": "L'un des plus anciens clubs actifs de la commune.",
+    "palmares": [
+      {
+        "saison": "Exemple 2016",
+        "titre": "Champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2011",
+        "titre": "Champion de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "ajax-club": {
+    "surnom": "Les Amsterdamois de Kipushi",
+    "fondation": 2007,
+    "stade": "Terrain Ajax",
+    "histoire": "Inspiré par le club néerlandais dont il porte le nom, l'Ajax Club de Kipushi valorise un football offensif et technique, porté par une génération de joueurs très prometteurs.",
+    "fait_marquant": "Actuellement l'une des équipes les plus en forme du championnat.",
+    "palmares": [
+      {
+        "saison": "Exemple 2024",
+        "titre": "Champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2022",
+        "titre": "Meilleure attaque et meilleure défense du championnat"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "tp-jeune-espoir": {
+    "surnom": "Le Jeune Espoir",
+    "fondation": 2012,
+    "stade": "Terrain Jeune Espoir",
+    "histoire": "Comme son nom l'indique, le TP Jeune Espoir mise sur la jeunesse et l'avenir, avec un effectif parmi les plus jeunes de la compétition et une progression suivie de près.",
+    "fait_marquant": "Club en pleine ascension avec un effectif majoritairement composé de moins de 20 ans.",
+    "palmares": [
+      {
+        "saison": "Exemple 2023",
+        "titre": "Demi-finaliste de la Coupe de Kipushi"
+      },
+      {
+        "saison": "Exemple 2021",
+        "titre": "Meilleur espoir de l'année (joueur du club)"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-bradeurs": {
+    "surnom": "Les Commerçants",
+    "fondation": 1997,
+    "stade": "Terrain des Bradeurs",
+    "histoire": "Né autour de la communauté des commerçants du grand marché, le FC Bradeurs est connu pour sa solidarité de groupe et sa capacité à réaliser de bons résultats à l'extérieur.",
+    "fait_marquant": "Réputé pour sa solidité en déplacement.",
+    "palmares": [
+      {
+        "saison": "Exemple 2020",
+        "titre": "Vice-champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2017",
+        "titre": "Champion de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-kilimasimba": {
+    "surnom": "Les Lions de Kilimasimba",
+    "fondation": 2004,
+    "stade": "Terrain Kilimasimba",
+    "histoire": "Le FC Kilimasimba ('la montagne du lion') tire son nom de son quartier et cultive une réputation de club combatif, difficile à manier sur son terrain.",
+    "fait_marquant": "Invaincu à domicile pendant plusieurs journées consécutives par le passé.",
+    "palmares": [
+      {
+        "saison": "Exemple 2019",
+        "titre": "Meilleure équipe à domicile"
+      },
+      {
+        "saison": "Exemple 2015",
+        "titre": "Finaliste de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-biayi": {
+    "surnom": "Les Bienfaiteurs",
+    "fondation": 1999,
+    "stade": "Terrain Biayi",
+    "histoire": "Le FC Biayi ('la bénédiction' en swahili local) est reconnu pour son fair-play et son esprit sportif exemplaire, valeurs chères à ses fondateurs.",
+    "fait_marquant": "Plusieurs fois récompensé pour le fair-play de ses joueurs.",
+    "palmares": [
+      {
+        "saison": "Exemple 2018",
+        "titre": "Trophée du Fair-Play de l'Entente"
+      },
+      {
+        "saison": "Exemple 2012",
+        "titre": "Champion de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "us-kipushi": {
+    "surnom": "Les Cheminots",
+    "fondation": 1985,
+    "stade": "Stade Municipal de Kipushi",
+    "histoire": "Doyenne des équipes de l'Entente, l'US Kipushi est un club emblématique de la ville, porteur d'une riche histoire et d'un large soutien populaire à chaque rencontre.",
+    "fait_marquant": "Club historique de référence dans la région de Kipushi.",
+    "palmares": [
+      {
+        "saison": "Exemple 2015",
+        "titre": "Champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2010",
+        "titre": "Champion de la Coupe de Kipushi"
+      },
+      {
+        "saison": "Exemple 2005",
+        "titre": "Champion de l'Entente de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  },
+  "fc-fbm": {
+    "surnom": "Les Frères de Kipushi",
+    "fondation": 2002,
+    "stade": "Terrain FBM",
+    "histoire": "Le FC FBM est né de l'union de plusieurs familles du quartier autour d'un même projet sportif, et conserve aujourd'hui cet esprit fraternel qui fait sa force sur le terrain.",
+    "fait_marquant": "Réputé pour la fraternité et la longévité de son noyau de joueurs.",
+    "palmares": [
+      {
+        "saison": "Exemple 2016",
+        "titre": "Vice-champion de l'Entente de Kipushi"
+      },
+      {
+        "saison": "Exemple 2013",
+        "titre": "Demi-finaliste de la Coupe de Kipushi"
+      }
+    ],
+    "photos": [
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg",
+      "images/joueur-placeholder.svg"
+    ],
+    "videos": []
+  }
+}

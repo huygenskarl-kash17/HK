@@ -1,0 +1,42 @@
+.competition{ padding-bottom:50px; }
+
+.comp-hero{
+  text-align:center;
+  max-width:750px;
+  margin:0 auto 50px;
+  padding:0 30px;
+}
+.comp-hero img{ width:96px; margin:0 auto 20px; }
+.comp-hero p{ color:var(--texte-doux); line-height:1.7; font-weight:700; }
+
+.carte-texte{ max-width:900px; margin:0 auto 50px; padding:36px 40px; }
+.carte-texte h2{ color:var(--noir); font-size:1.25rem; margin-bottom:20px; text-align:center; font-weight:700; }
+.carte-texte p{ color:var(--texte-doux); line-height:1.8; margin-bottom:18px; text-align:justify; font-weight:500; }
+
+.format-grid{
+  max-width:1000px; margin:0 auto 50px; padding:0 30px;
+  display:grid; grid-template-columns:repeat(4, 1fr); gap:20px;
+}
+.format-card{ text-align:center; padding:26px 18px; }
+.format-card i{ font-size:1.6rem; color:var(--bleu); margin-bottom:14px; }
+.format-card h3{ font-size:0.98rem; color:var(--noir); margin-bottom:8px; font-weight:700; }
+.format-card p{ font-size:0.85rem; color:var(--texte-doux); line-height:1.5; font-weight:500; }
+
+.reglement-liste{
+  max-width:800px; margin:0 auto 60px; padding:0 30px;
+}
+.reglement-liste li{
+  list-style:none;
+  display:flex; gap:14px; align-items:flex-start;
+  padding:16px 0; border-bottom:1px solid var(--bordure);
+}
+.reglement-liste li i{ color:var(--bleu); font-size:1.05rem; margin-top:2px; }
+.reglement-liste li span{ color:var(--texte-doux); line-height:1.6; font-size:0.92rem; font-weight:500; }
+
+@media(max-width:900px){
+  .format-grid{ grid-template-columns:repeat(2,1fr); }
+}
+@media(max-width:600px){
+  .format-grid{ grid-template-columns:1fr; }
+  .carte-texte{ padding:26px; }
+}

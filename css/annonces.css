@@ -1,0 +1,150 @@
+.annonces-hero{ text-align:center; padding:10px 30px 20px; }
+.annonces-hero p{ color:var(--texte-doux); max-width:640px; margin:0 auto; font-weight:700; }
+
+.liste-communiques{ max-width:900px; margin:0 auto 80px; padding:0 30px; display:flex; flex-direction:column; gap:32px; }
+.communique{ padding:28px 30px; }
+.communique .entete{ display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px; margin-bottom:14px; }
+
+.tag{ display:inline-block; font-size:11px; font-weight:800; padding:4px 12px; border-radius:var(--rayon-sm); letter-spacing:0.2px; }
+.tag.resultat{ background:var(--noir); color:var(--blanc); }
+.tag.avenir{ background:var(--blanc); color:var(--noir); border:1.5px solid var(--noir); }
+.tag.video{ background:var(--rouge); color:var(--blanc); }
+.tag.communique-officiel{ background:var(--blanc); color:var(--bleu); border:1.5px solid var(--bleu); }
+
+.communique .date-pub{ font-size:12.5px; color:var(--texte-doux); font-weight:700; }
+.communique h3{ font-size:1.25rem; color:var(--texte); margin-bottom:12px; font-family:"Playfair Display", Georgia, serif; font-weight:700; }
+.communique p.texte{ color:var(--texte-doux); line-height:1.75; margin-bottom:20px; white-space:pre-line; font-weight:500; }
+
+.score-box{ display:flex; align-items:center; justify-content:center; gap:22px; background:var(--fond-alt);
+  border:1px solid var(--bordure); border-radius:0; padding:20px; margin-bottom:22px; }
+.score-box .equipe{ flex:1; text-align:center; font-weight:800; color:var(--texte); font-size:0.95rem; }
+.score-box .score{ font-family:"Playfair Display", Georgia, serif; font-size:1.9rem; font-weight:800; color:var(--noir); letter-spacing:2px; white-space:nowrap; }
+
+.photo-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; }
+.photo-grid img{ width:100%; height:150px; object-fit:cover; border-radius:0; cursor:pointer; transition:var(--transition); }
+.photo-grid img:hover{ transform:scale(1.02); box-shadow:var(--ombre-md); }
+.photo-grid.grid-2{ grid-template-columns:repeat(2, 1fr); }
+.photo-grid.grid-2 img{ height:220px; }
+.photo-grid.grid-1{ grid-template-columns:1fr; }
+.photo-grid.grid-1 img{ height:320px; }
+
+/* --- VIDEO --- */
+.video-wrap{ position:relative; width:100%; padding-top:56.25%; border-radius:0; overflow:hidden; background:#000; }
+.video-wrap iframe, .video-wrap video{ position:absolute; inset:0; width:100%; height:100%; border:none; }
+
+@media(max-width:700px){
+  .photo-grid{ grid-template-columns:repeat(2, 1fr); }
+  .photo-grid.grid-1{ grid-template-columns:1fr; }
+  .score-box{ gap:12px; padding:16px; }
+  .score-box .score{ font-size:1.4rem; }
+  .communique{ padding:22px; }
+}
+
+/* =========================================================
+   PROGRAMME DES DEUX PROCHAINES SEMAINES — FRISE CHRONOLOGIQUE
+   ========================================================= */
+.programme-section{ max-width:900px; margin:10px auto 60px; padding:0 30px; }
+.programme-entete{ text-align:center; margin-bottom:36px; }
+.programme-oeil{ display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:800; text-transform:uppercase;
+  letter-spacing:0.8px; color:var(--blanc); background:var(--noir); padding:6px 16px; border-radius:20px; }
+.programme-entete p{ color:var(--texte-doux); max-width:520px; margin:0 auto; font-weight:700; }
+
+.tl{ list-style:none; position:relative; padding-left:64px; }
+.tl::before{ content:""; position:absolute; left:29px; top:6px; bottom:6px; width:2px;
+  background:repeating-linear-gradient(to bottom, var(--bordure) 0 6px, transparent 6px 12px); }
+
+.tl-item{ position:relative; padding-bottom:34px; }
+.tl-item:last-child{ padding-bottom:0; }
+
+.tl-date{ position:absolute; left:-64px; top:-4px; width:56px; display:flex; flex-direction:column; align-items:center;
+  line-height:1.1; }
+.tl-date .tl-jour{ font-size:10px; font-weight:800; text-transform:uppercase; color:var(--texte-doux); letter-spacing:0.5px; }
+.tl-date .tl-num{ font-family:"Playfair Display", Georgia, serif; font-size:1.4rem; font-weight:800; color:var(--noir); }
+.tl-date .tl-mois{ font-size:10px; font-weight:800; text-transform:uppercase; color:var(--texte-doux); }
+
+.tl-noeud{ position:absolute; left:22px; top:2px; width:16px; height:16px; border-radius:50%; background:#fff;
+  border:3px solid var(--noir); display:flex; align-items:center; justify-content:center; z-index:2; }
+.tl-noeud i{ display:none; }
+.tl-reunion .tl-noeud{ border-color:var(--noir); }
+.tl-formation .tl-noeud{ border-color:var(--bleu); }
+.tl-social .tl-noeud{ border-color:var(--noir); }
+.tl-solidarite .tl-noeud{ border-color:var(--rouge); }
+
+.tl-contenu{ background:var(--fond-alt); border:1px solid var(--bordure); border-left:3px solid var(--noir);
+  border-radius:0; padding:16px 20px; }
+.tl-reunion .tl-contenu{ border-left-color:var(--noir); }
+.tl-formation .tl-contenu{ border-left-color:var(--bleu); }
+.tl-social .tl-contenu{ border-left-color:var(--noir); }
+.tl-solidarite .tl-contenu{ border-left-color:var(--rouge); }
+
+.tl-etiquette{ display:inline-block; font-size:10.5px; font-weight:800; text-transform:uppercase; letter-spacing:0.5px;
+  padding:3px 10px; border-radius:20px; margin-bottom:8px; background:var(--noir); color:var(--blanc); }
+.tl-etiquette.reunion{ background:var(--noir); color:var(--blanc); }
+.tl-etiquette.formation{ background:var(--blanc); color:var(--bleu); border:1.5px solid var(--bleu); }
+.tl-etiquette.social{ background:var(--noir); color:var(--blanc); }
+.tl-etiquette.solidarite{ background:var(--rouge); color:var(--blanc); }
+
+.tl-contenu h3{ font-size:1rem; font-family:"Playfair Display", Georgia, serif; color:var(--texte); margin-bottom:4px; font-weight:700; }
+.tl-contenu h3 em{ font-style:normal; color:var(--bleu); font-weight:800; margin:0 4px; }
+.tl-contenu p{ font-size:0.85rem; color:var(--texte-doux); line-height:1.55; font-weight:500; }
+.tl-contenu p a{ color:var(--noir); font-weight:800; white-space:nowrap; }
+.tl-contenu p a:hover{ color:var(--bleu); }
+
+@media(max-width:600px){
+  .tl{ padding-left:52px; }
+  .tl-date{ left:-52px; width:44px; }
+  .tl-date .tl-num{ font-size:1.15rem; }
+  .tl-noeud{ left:18px; }
+  .tl::before{ left:25px; }
+}
+
+/* =========================================================
+   CHOCS À VENIR — BILLET DE MATCH
+   ========================================================= */
+.communique-choc{ padding:26px 28px 30px; border-radius:var(--rayon); background:#fff;
+  border:1px solid var(--bordure); position:relative; overflow:hidden; }
+.communique-choc::before{ content:""; position:absolute; inset:0 0 auto 0; height:3px;
+  background:var(--rouge); }
+.tag.choc{ background:var(--rouge); color:var(--blanc); }
+
+/* Les couleurs des équipes (--c1/--c2) restent celles des blasons des clubs,
+   affichées ici comme identité visuelle du match, pas comme couleur du site. */
+.billet{ position:relative; display:flex; align-items:center; gap:0; border:1px dashed var(--bordure);
+  border-radius:var(--rayon); overflow:hidden; margin-top:6px; }
+.billet::before{ content:""; position:absolute; inset:0; opacity:0.05; z-index:0;
+  background:linear-gradient(115deg, var(--c1) 0%, var(--c1) 46%, var(--c2) 54%, var(--c2) 100%); }
+.billet-equipe{ position:relative; z-index:1; flex:1; display:flex; flex-direction:column; align-items:center; gap:8px;
+  padding:22px 12px; text-align:center; }
+.billet-equipe img{ width:46px; height:52px; object-fit:contain; }
+.billet-nom{ font-weight:800; font-size:0.88rem; color:var(--texte); }
+.billet-rang{ font-size:0.72rem; font-weight:700; color:var(--texte-doux); background:var(--fond-alt);
+  padding:3px 10px; border-radius:20px; }
+.billet-milieu{ position:relative; z-index:1; display:flex; flex-direction:column; align-items:center; gap:6px;
+  padding:18px 16px; border-left:1px dashed var(--bordure); border-right:1px dashed var(--bordure); min-width:150px; }
+.billet-vs{ font-family:"Playfair Display", Georgia, serif; font-weight:800; font-size:1.1rem; color:var(--noir); }
+.billet-heure{ font-size:0.85rem; font-weight:800; color:var(--blanc); background:var(--noir); padding:3px 12px; border-radius:20px; }
+.billet-lieu{ font-size:0.72rem; color:var(--texte-doux); text-align:center; }
+
+@media(max-width:640px){
+  .billet{ flex-direction:column; }
+  .billet-milieu{ border-left:none; border-right:none; border-top:1px dashed var(--bordure); border-bottom:1px dashed var(--bordure);
+    width:100%; }
+}
+
+/* =========================================================
+   GRILLE DE RESULTATS (plusieurs rencontres compactes)
+   ========================================================= */
+.score-grid{ display:grid; grid-template-columns:repeat(2, 1fr); gap:12px; margin-bottom:22px; }
+.score-grid .score-box{ margin-bottom:0; padding:14px 16px; flex-direction:column; gap:6px; }
+.score-grid .score-box .equipe{ font-size:0.82rem; }
+.score-grid .score-box .score{ font-size:1.25rem; }
+.score-box.en-direct{ grid-column:1 / -1; align-items:center; background:var(--blanc); border:1.5px solid var(--rouge); }
+.score-box-ligne{ display:flex; align-items:center; justify-content:center; gap:22px; width:100%; }
+.score-box-ligne .equipe{ flex:1; text-align:center; font-weight:800; color:var(--texte); font-size:0.95rem; }
+.score-box-ligne .score{ font-family:"Playfair Display", Georgia, serif; font-size:1.5rem; font-weight:800; color:var(--noir); }
+
+.tag.evenement{ background:var(--noir); color:var(--blanc); }
+
+@media(max-width:640px){
+  .score-grid{ grid-template-columns:1fr; }
+}

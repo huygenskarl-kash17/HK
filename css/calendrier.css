@@ -1,0 +1,19 @@
+.calendrier-page{ padding-bottom:40px; }
+.calendrier-sub{ text-align:center; color:var(--texte-doux); margin-bottom:0; }
+.calendrier-terrain{ text-align:center; color:var(--noir); font-weight:700; font-size:0.92rem; margin:6px 0 26px; }
+.calendrier-terrain i{ color:var(--bleu); margin-right:4px; }
+
+.telechargement-bar{ display:flex; justify-content:center; gap:14px; flex-wrap:wrap; margin:-20px auto 40px; padding:0 20px; }
+.telechargement-bar .btn{ padding:11px 22px; font-size:13.5px; }
+
+.match-row .journee-mini{
+  position:absolute; top:-11px; left:16px;
+  background:var(--blanc); color:var(--noir); border:1.5px solid var(--noir);
+  font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:0.4px;
+  padding:3px 11px; border-radius:var(--rayon-sm);
+}
+
+@media print{
+  header, footer, .filtres, .telechargement-bar, .menu-toggle, .nav-social-mini{ display:none !important; }
+  .calendrier-page{ padding:0; }
+}

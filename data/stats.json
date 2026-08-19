@@ -1,0 +1,214 @@
+{
+  "maj": "05 Juillet 2026 - 14h00",
+  "buteurs": [
+    {
+      "rang": 1,
+      "nom": "Nom du joueur",
+      "equipe": "Ajax Club",
+      "buts": 5
+    },
+    {
+      "rang": 2,
+      "nom": "Nom du joueur",
+      "equipe": "FC Bradeurs",
+      "buts": 4
+    },
+    {
+      "rang": 3,
+      "nom": "Nom du joueur",
+      "equipe": "JS Porte des Cieux",
+      "buts": 4
+    },
+    {
+      "rang": 4,
+      "nom": "Nom du joueur",
+      "equipe": "US Kipushi",
+      "buts": 3
+    },
+    {
+      "rang": 5,
+      "nom": "Nom du joueur",
+      "equipe": "FC Talents de Kipushi",
+      "buts": 3
+    }
+  ],
+  "passeurs": [
+    {
+      "rang": 1,
+      "nom": "Nom du joueur",
+      "equipe": "US Kipushi",
+      "passes": 4
+    },
+    {
+      "rang": 2,
+      "nom": "Nom du joueur",
+      "equipe": "TP Jeune Espoir",
+      "passes": 3
+    },
+    {
+      "rang": 3,
+      "nom": "Nom du joueur",
+      "equipe": "Ajax Club",
+      "passes": 3
+    },
+    {
+      "rang": 4,
+      "nom": "Nom du joueur",
+      "equipe": "FC KMB",
+      "passes": 2
+    },
+    {
+      "rang": 5,
+      "nom": "Nom du joueur",
+      "equipe": "FC Tourbillon",
+      "passes": 2
+    }
+  ],
+  "gardiens": [
+    {
+      "rang": 1,
+      "nom": "Nom du gardien",
+      "equipe": "Ajax Club",
+      "clean_sheets": 3
+    },
+    {
+      "rang": 2,
+      "nom": "Nom du gardien",
+      "equipe": "FC Kilimasimba",
+      "clean_sheets": 2
+    },
+    {
+      "rang": 3,
+      "nom": "Nom du gardien",
+      "equipe": "JS Porte des Cieux",
+      "clean_sheets": 2
+    },
+    {
+      "rang": 4,
+      "nom": "Nom du gardien",
+      "equipe": "FC KMB",
+      "clean_sheets": 1
+    },
+    {
+      "rang": 5,
+      "nom": "Nom du gardien",
+      "equipe": "US Kipushi",
+      "clean_sheets": 1
+    }
+  ],
+  "dribbleurs": [
+    {
+      "rang": 1,
+      "nom": "Nom du joueur",
+      "equipe": "FC Bradeurs",
+      "dribbles": 12
+    },
+    {
+      "rang": 2,
+      "nom": "Nom du joueur",
+      "equipe": "Ajax Club",
+      "dribbles": 10
+    },
+    {
+      "rang": 3,
+      "nom": "Nom du joueur",
+      "equipe": "TP Jeune Espoir",
+      "dribbles": 9
+    },
+    {
+      "rang": 4,
+      "nom": "Nom du joueur",
+      "equipe": "US Kipushi",
+      "dribbles": 7
+    },
+    {
+      "rang": 5,
+      "nom": "Nom du joueur",
+      "equipe": "FC Tourbillon",
+      "dribbles": 6
+    }
+  ],
+  "cartons_jaunes_equipes": [
+    {
+      "rang": 1,
+      "equipe": "CS Kamarenge",
+      "jaunes": 7
+    },
+    {
+      "rang": 2,
+      "equipe": "FC FBM",
+      "jaunes": 6
+    },
+    {
+      "rang": 3,
+      "equipe": "Real Corcelone",
+      "jaunes": 5
+    },
+    {
+      "rang": 4,
+      "equipe": "FC Biayi",
+      "jaunes": 4
+    },
+    {
+      "rang": 5,
+      "equipe": "FC Munana",
+      "jaunes": 3
+    }
+  ],
+  "cartons_rouges_equipes": [
+    {
+      "rang": 1,
+      "equipe": "FC FBM",
+      "rouges": 2
+    },
+    {
+      "rang": 2,
+      "equipe": "CS Kamarenge",
+      "rouges": 1
+    },
+    {
+      "rang": 3,
+      "equipe": "TP Jeune Espoir",
+      "rouges": 1
+    }
+  ],
+  "hommes_du_match": [
+    {
+      "jour_numero": 1,
+      "nom": "Nom du joueur",
+      "equipe": "Ajax Club",
+      "photo": "images/MVP1.jpeg"
+    },
+    {
+      "jour_numero": 2,
+      "nom": "Nom du joueur",
+      "equipe": "FC Bradeurs",
+      "photo": "images/MVP2.jpeg"
+    },
+    {
+      "jour_numero": 3,
+      "nom": "Nom du joueur",
+      "equipe": "US Kipushi",
+      "photo": "images/MVP3.jpeg"
+    },
+    {
+      "jour_numero": 3,
+      "nom": "Ambiance du jour de match",
+      "equipe": "",
+      "photo": "images/Matchdujour.jpeg"
+    }
+  ],
+  "meilleure_equipe": {
+    "nom": "Ajax Club",
+    "badge": "images/badges/ajax-club.svg",
+    "description": "Invaincu depuis le début de la compétition, avec la meilleure attaque et la meilleure défense du championnat."
+  },
+  "affiches_a_la_une": [
+    {
+      "match_id": 1
+    },
+    {
+      "match_id": 5
+    }
+  ]
+}

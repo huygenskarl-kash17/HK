@@ -1,0 +1,146 @@
+[
+  {
+    "nom": "JS Porte des Cieux",
+    "code": "PDC",
+    "couleur": "#1e88e5",
+    "accent": "#ffffff",
+    "id": 1,
+    "slug": "js-porte-des-cieux",
+    "badge": "images/badges/js-porte-des-cieux.svg"
+  },
+  {
+    "nom": "CS Kamarenge",
+    "code": "KMR",
+    "couleur": "#c0392b",
+    "accent": "#ffd700",
+    "id": 2,
+    "slug": "cs-kamarenge",
+    "badge": "images/badges/cs-kamarenge.svg"
+  },
+  {
+    "nom": "FC Talents de Kipushi",
+    "code": "TDK",
+    "couleur": "#8e44ad",
+    "accent": "#ffffff",
+    "id": 3,
+    "slug": "fc-talents-de-kipushi",
+    "badge": "images/badges/fc-talents-de-kipushi.svg"
+  },
+  {
+    "nom": "JS Kamatete",
+    "code": "KMT",
+    "couleur": "#e67e22",
+    "accent": "#1a1a1a",
+    "id": 4,
+    "slug": "js-kamatete",
+    "badge": "images/badges/js-kamatete.svg"
+  },
+  {
+    "nom": "FC KMB",
+    "code": "KMB",
+    "couleur": "#1a3a6b",
+    "accent": "#ffd700",
+    "id": 5,
+    "slug": "fc-kmb",
+    "badge": "images/badges/fc-kmb.svg"
+  },
+  {
+    "nom": "FC Munana",
+    "code": "MUN",
+    "couleur": "#16a085",
+    "accent": "#ffffff",
+    "id": 6,
+    "slug": "fc-munana",
+    "badge": "images/badges/fc-munana.svg"
+  },
+  {
+    "nom": "FC Tourbillon",
+    "code": "TRB",
+    "couleur": "#f1c40f",
+    "accent": "#1a1a1a",
+    "id": 7,
+    "slug": "fc-tourbillon",
+    "badge": "images/badges/fc-tourbillon.svg"
+  },
+  {
+    "nom": "Real Corcelone",
+    "code": "RCC",
+    "couleur": "#7b241c",
+    "accent": "#ffffff",
+    "id": 8,
+    "slug": "real-corcelone",
+    "badge": "images/badges/real-corcelone.svg"
+  },
+  {
+    "nom": "FC Bana Kipushi",
+    "code": "BKI",
+    "couleur": "#2ecc71",
+    "accent": "#1a1a1a",
+    "id": 9,
+    "slug": "fc-bana-kipushi",
+    "badge": "images/badges/fc-bana-kipushi.svg"
+  },
+  {
+    "nom": "Ajax Club",
+    "code": "AJX",
+    "couleur": "#d32f2f",
+    "accent": "#ffffff",
+    "id": 10,
+    "slug": "ajax-club",
+    "badge": "images/badges/ajax-club.svg"
+  },
+  {
+    "nom": "TP Jeune Espoir",
+    "code": "TPJ",
+    "couleur": "#222222",
+    "accent": "#f1c40f",
+    "id": 11,
+    "slug": "tp-jeune-espoir",
+    "badge": "images/badges/tp-jeune-espoir.svg"
+  },
+  {
+    "nom": "FC Bradeurs",
+    "code": "BRD",
+    "couleur": "#8d6e63",
+    "accent": "#ffffff",
+    "id": 12,
+    "slug": "fc-bradeurs",
+    "badge": "images/badges/fc-bradeurs.svg"
+  },
+  {
+    "nom": "FC Kilimasimba",
+    "code": "KLS",
+    "couleur": "#d35400",
+    "accent": "#1a1a1a",
+    "id": 13,
+    "slug": "fc-kilimasimba",
+    "badge": "images/badges/fc-kilimasimba.svg"
+  },
+  {
+    "nom": "FC Biayi",
+    "code": "BYI",
+    "couleur": "#c2185b",
+    "accent": "#ffffff",
+    "id": 14,
+    "slug": "fc-biayi",
+    "badge": "images/badges/fc-biayi.svg"
+  },
+  {
+    "nom": "US Kipushi",
+    "code": "USK",
+    "couleur": "#2980b9",
+    "accent": "#ffd700",
+    "id": 15,
+    "slug": "us-kipushi",
+    "badge": "images/badges/us-kipushi.svg"
+  },
+  {
+    "nom": "FC FBM",
+    "code": "FBM",
+    "couleur": "#546e7a",
+    "accent": "#ffffff",
+    "id": 16,
+    "slug": "fc-fbm",
+    "badge": "images/badges/fc-fbm.svg"
+  }
+]

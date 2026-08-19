@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entente de Kipushi — Championnat de Football</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<div id="toast"></div>
+
+<header>
+<div class="menu-toggle">☰</div>
+<div class="logo">
+    <img src="images/logo-entente.svg" alt="logo">
+    <div><span>ENTENTE DE KIPUSHI</span><span class="logo-sub">Championnat de football</span></div>
+</div>
+<nav>
+<ul>
+<li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Accueil</a></li>
+<li><a href="competition.html"><i class="fa-solid fa-trophy"></i> Compétition</a></li>
+<li><a href="equipes.html"><i class="fa-solid fa-shield-halved"></i> Équipes</a></li>
+<li><a href="calendrier.html"><i class="fa-solid fa-calendar-days"></i> Calendrier</a></li>
+<li><a href="classement.html"><i class="fa-solid fa-ranking-star"></i> Classement</a></li>
+<li><a href="statistiques.html"><i class="fa-solid fa-chart-simple"></i> Statistiques</a></li>
+<li><a href="annonces.html"><i class="fa-solid fa-bullhorn"></i> Annonces</a></li>
+<li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+</ul>
+</nav>
+<div class="nav-social-mini">
+<a href="#" aria-label="Facebook" class="ico-facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" aria-label="WhatsApp" class="ico-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" aria-label="YouTube" class="ico-youtube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" aria-label="Instagram" class="ico-instagram"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</header>
+
+<main>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+    <div class="forme-cube grande flotte-lent" style="top:14%; left:6%;"><img src="images/decor/cube.svg" alt=""></div>
+    <div class="forme-cube moyenne flotte" style="bottom:10%; right:9%;"><img src="images/decor/cube-or.svg" alt=""></div>
+    <div class="forme-cube petite flotte" style="top:60%; left:14%;"><img src="images/decor/cube-or.svg" alt=""></div>
+
+    <div class="hero-inner">
+        <span class="hero-badge reveal-zoom"><i class="fa-solid fa-circle-play"></i> Saison 2026 en cours</span>
+        <h1 class="reveal">Entente <span>de Kipushi</span></h1>
+        <p class="tagline reveal">Le grand championnat qui réunit 16 équipes de Kipushi dans une compétition
+        façon grande ligue : matchs aller-retour, classement général et statistiques détaillées.
+        Passion, rivalité et fair-play, saison après saison.</p>
+        <div class="hero-cta reveal">
+            <a href="calendrier.html" class="btn btn-or"><i class="fa-solid fa-calendar-days"></i> Voir le calendrier</a>
+            <a href="classement.html" class="btn-outline btn" style="background:rgba(255,255,255,0.1); color:#fff; border-color:rgba(255,255,255,0.5);"><i class="fa-solid fa-ranking-star"></i> Voir le classement</a>
+            <a href="annonces.html" class="btn-outline btn" style="background:rgba(255,255,255,0.1); color:#fff; border-color:rgba(255,255,255,0.5);"><i class="fa-solid fa-bullhorn"></i> Dernières annonces</a>
+        </div>
+        <div class="hero-meta reveal">
+            <span><i class="fa-solid fa-shield-halved"></i> 16 clubs</span>
+            <span><i class="fa-solid fa-calendar-days"></i> 30 journées</span>
+            <span><i class="fa-solid fa-location-dot"></i> Ville de Kipushi</span>
+        </div>
+    </div>
+    <a href="#pouls-du-championnat" class="hero-scroll" aria-label="Défiler vers le bas"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- ============================================================
+     TICKER DERNIERS RESULTATS
+     ============================================================ -->
+<div class="live-ticker" id="pouls-du-championnat">
+    <div class="live-ticker-track" id="live-ticker-content">
+        <span class="ticker-item ek-skeleton skel-ligne" style="width:220px; display:inline-block;">&nbsp;</span>
+        <span class="ticker-item ek-skeleton skel-ligne" style="width:220px; display:inline-block;">&nbsp;</span>
+        <span class="ticker-item ek-skeleton skel-ligne" style="width:220px; display:inline-block;">&nbsp;</span>
+    </div>
+</div>
+
+<!-- ============================================================
+     STATS RAPIDES (cartes-relief)
+     ============================================================ -->
+<section class="stats">
+    <div class="stat-card carte-relief reveal" style="--i:0">
+        <div class="icone-relief"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="stat-num" data-count="16">0</div><div class="stat-label">Équipes engagées</div>
+    </div>
+    <div class="stat-card carte-relief reveal" style="--i:1">
+        <div class="icone-relief"><i class="fa-solid fa-futbol"></i></div>
+        <div class="stat-num" data-count="120">0</div><div class="stat-label">Matchs au total</div>
+    </div>
+    <div class="stat-card carte-relief accent-or reveal" style="--i:2">
+        <div class="icone-relief"><i class="fa-solid fa-calendar-days"></i></div>
+        <div class="stat-num" data-count="30">0</div><div class="stat-label">Journées de championnat</div>
+    </div>
+    <div class="stat-card carte-relief accent-or reveal" style="--i:3">
+        <div class="icone-relief"><i class="fa-solid fa-trophy"></i></div>
+        <div class="stat-num" data-count="1">0</div><div class="stat-label">Trophée à décrocher</div>
+    </div>
+</section>
+
+<!-- ============================================================
+     TEMPS FORTS — hommes du match + affiches (genere depuis
+     data/stats.json, cles "hommes_du_match" et "affiches_a_la_une")
+     ============================================================ -->
+<section class="hm-section" style="max-width:560px; margin:0 auto 76px; padding:0 30px;">
+    <p class="eyebrow">Ça s'est passé sur le terrain</p>
+    <h2 class="titre">Temps forts de la compétition</h2>
+    <div class="hm-card reveal-zoom" style="margin-top:34px;">
+        <div class="hm-slider" id="hm-slider-accueil">
+            <div class="hm-slide actif"><p style="padding:40px;text-align:center;">Chargement...</p></div>
+        </div>
+        <div class="hm-dots" id="hm-dots-accueil"></div>
+    </div>
+</section>
+
+<!-- ============================================================
+     FORMAT DE LA COMPETITION
+     ============================================================ -->
+<section class="section-format">
+    <p class="eyebrow">Comment ça marche</p>
+    <h2 class="titre">Le format de la compétition</h2>
+    <p class="format-intro reveal">Un championnat structuré comme une grande ligue, pensé pour être équitable,
+    lisible et disputé du premier au dernier match.</p>
+
+    <div class="format-grid">
+        <div class="carte-relief reveal" style="--i:0">
+            <div class="icone-relief"><i class="fa-solid fa-users"></i></div>
+            <h3>16 équipes qualifiées</h3>
+            <p>Les meilleurs clubs de la ville de Kipushi s'affrontent dans une seule et même poule, sans exception.</p>
+        </div>
+        <div class="carte-relief reveal" style="--i:1">
+            <div class="icone-relief"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <h3>Matchs aller-retour</h3>
+            <p>Chaque équipe affronte toutes les autres deux fois : une fois à domicile, une fois à l'extérieur.</p>
+        </div>
+        <div class="carte-relief accent-or reveal" style="--i:2">
+            <div class="icone-relief"><i class="fa-solid fa-medal"></i></div>
+            <h3>Barème 3 - 1 - 0</h3>
+            <p>Victoire : 3 points. Match nul : 1 point. Défaite : 0 point. Le classement se joue sur toute la saison.</p>
+        </div>
+        <div class="carte-relief reveal" style="--i:3">
+            <div class="icone-relief"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Zone de qualification</h3>
+            <p>Les 4 premières équipes du classement général visent la phase finale et la course au trophée.</p>
+        </div>
+        <div class="carte-relief reveal" style="--i:4">
+            <div class="icone-relief"><i class="fa-solid fa-location-dot"></i></div>
+            <h3>Terrain unique</h3>
+            <p>Tous les matchs du championnat se jouent au terrain SAFRICAS KICO, à 12h, 14h ou 16h.</p>
+        </div>
+        <div class="carte-relief accent-or reveal" style="--i:5">
+            <div class="icone-relief"><i class="fa-solid fa-trophy"></i></div>
+            <h3>Un seul champion</h3>
+            <p>Au terme des 30 journées, une seule équipe soulève le trophée de l'Entente de Kipushi.</p>
+        </div>
+    </div>
+    <div class="format-cta reveal">
+        <a href="competition.html" class="btn"><i class="fa-solid fa-circle-info"></i> Tout savoir sur la compétition</a>
+    </div>
+</section>
+
+<!-- ============================================================
+     PROCHAIN MATCH + MINI CLASSEMENT
+     ============================================================ -->
+<section class="section-duo">
+    <div class="card duo-card reveal-left">
+        <h2><i class="fa-solid fa-clock"></i> Prochain match</h2>
+        <div id="prochain-match">
+            <div class="ek-skeleton skel-bloc" style="max-width:320px;margin:0 auto;"></div>
+        </div>
+    </div>
+    <div class="card duo-card reveal-right">
+        <h2><i class="fa-solid fa-ranking-star"></i> Classement (Top 5)</h2>
+        <table class="table-classement classement-mini-table">
+            <thead><tr><th>#</th><th style="text-align:left;">Équipe</th><th>MJ</th><th>Pts</th></tr></thead>
+            <tbody id="classement-mini-corps">
+                <tr><td colspan="4"><div class="ek-skeleton skel-ligne"></div></td></tr>
+                <tr><td colspan="4"><div class="ek-skeleton skel-ligne"></div></td></tr>
+                <tr><td colspan="4"><div class="ek-skeleton skel-ligne"></div></td></tr>
+            </tbody>
+        </table>
+        <a href="classement.html" class="voir-plus-link"><i class="fa-solid fa-ranking-star"></i> Voir le classement complet →</a>
+    </div>
+</section>
+
+<!-- ============================================================
+     PRESENTATION + EQUIPE DU MOMENT
+     ============================================================ -->
+<section class="section-alt">
+    <div class="grid-2">
+        <div class="reveal-left">
+            <p class="eyebrow">L'entente de kipushi</p>
+            <h2>Le rendez-vous incontournable du football à Kipushi</h2>
+            <p>L'Entente de Kipushi réunit 16 équipes de la ville dans un vrai championnat façon grande ligue :
+            matchs aller-retour, classement général, statistiques individuelles et collectives. Un tournoi pensé
+            pour révéler les talents et faire vivre la passion du football à tous les quartiers.</p>
+            <ul class="liste-atouts">
+                <li><i class="fa-solid fa-circle-check"></i> Suivi en direct des résultats et du classement</li>
+                <li><i class="fa-solid fa-circle-check"></i> Statistiques buteurs, passeurs et meilleure équipe</li>
+                <li><i class="fa-solid fa-circle-check"></i> Photos, vidéos et communiqués après chaque journée</li>
+            </ul>
+            <a href="competition.html" class="btn"><i class="fa-solid fa-trophy"></i> Découvrir la compétition</a>
+        </div>
+        <div class="reveal-right">
+            <div class="meilleure-equipe-card reveal-zoom" id="meilleure-equipe">
+                <div class="ek-skeleton skel-bloc" style="width:100%; height:140px;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     EQUIPES EN LICE
+     ============================================================ -->
+<section class="section-equipes">
+    <p class="eyebrow">16 clubs, une seule ambition</p>
+    <h2 class="titre">Les équipes en lice</h2>
+    <div class="equipes-grille-accueil" id="equipes-accueil-grid">
+        <!-- rempli dynamiquement depuis data/teams.json -->
+    </div>
+    <div class="format-cta reveal">
+        <a href="equipes.html" class="btn-outline btn"><i class="fa-solid fa-shield-halved"></i> Voir toutes les équipes</a>
+    </div>
+</section>
+
+<!-- ============================================================
+     ANNONCES QUI CIRCULENT
+     ============================================================ -->
+<section class="section-annonces-accueil">
+    <p class="eyebrow" style="color:rgba(255,255,255,0.8); text-shadow:0 1px 6px rgba(0,0,0,0.5);">Ça circule en ce moment</p>
+    <h2 class="titre" style="color:#fff; text-shadow:0 2px 10px rgba(0,0,0,0.55);">L'actualité du championnat</h2>
+    <div class="annonces-piste-wrap">
+        <!-- Genere automatiquement depuis data/annonces.json (cle "communiques") par js/data-engine.js -->
+        <div class="annonces-piste" id="annonces-piste-accueil">
+            <span class="mini-annonce ek-skeleton skel-bloc" style="width:290px;height:150px;flex-shrink:0;"></span>
+        </div>
+    </div>
+    <div class="format-cta reveal">
+        <a href="annonces.html" class="btn btn-or"><i class="fa-solid fa-bullhorn"></i> Voir toutes les annonces</a>
+    </div>
+</section>
+
+<!-- ============================================================
+     BANNIERE CONTACT / RESTER INFORME
+     ============================================================ -->
+<section class="annonces-banner">
+    <div class="annonces-banner-inner reveal-zoom">
+        <div class="forme-cube moyenne flotte" style="top:-20px; right:60px; opacity:0.5;"><img src="images/decor/cube-or.svg" alt=""></div>
+        <div class="annonces-banner-text">
+            <span class="tag-banner">Restez connectés</span>
+            <h2>Ne manquez plus jamais une journée du championnat</h2>
+            <p>Suis-nous sur les réseaux sociaux, consulte le calendrier régulièrement et contacte la ligue
+            pour toute question sur les inscriptions ou l'organisation.</p>
+            <a href="contact.html" class="btn btn-or"><i class="fa-solid fa-paper-plane"></i> Contacter la ligue</a>
+        </div>
+        <div class="annonces-banner-visual"><i class="fa-solid fa-futbol"></i></div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+<div class="footer-logo"><img src="images/logo-entente.svg" alt="logo"> Entente de Kipushi</div>
+<p class="footer-slogan">Le championnat qui fait vibrer tous les quartiers de Kipushi.</p>
+<p class="ek-derniere-maj">Dernière mise à jour : —</p>
+<div class="footer-partenaires">
+    <p class="footer-partenaires-titre">Ils soutiennent l'Entente de Kipushi</p>
+    <div class="partenaires-grille">
+<div class="partenaire-chip"><img src="images/partners/equa-pichon.svg" alt="Equa Pichon"><span>Equa Pichon</span></div>
+<div class="partenaire-chip"><img src="images/partners/usalama.svg" alt="Usalama"><span>Usalama</span></div>
+<div class="partenaire-chip"><img src="images/partners/munana-group.svg" alt="Munana Group"><span>Munana Group</span></div>
+<div class="partenaire-chip"><img src="images/partners/kamarenge.svg" alt="Kamarenge"><span>Kamarenge</span></div>
+<div class="partenaire-chip"><img src="images/partners/kipushi-mining-corp.svg" alt="Kipushi Mining Corp"><span>Kipushi Mining Corp</span></div>
+<div class="partenaire-chip"><img src="images/partners/lubumbashi-motors.svg" alt="Lubumbashi Motors"><span>Lubumbashi Motors</span></div>
+<div class="partenaire-chip"><img src="images/partners/katanga-fresh.svg" alt="Katanga Fresh"><span>Katanga Fresh</span></div>
+<div class="partenaire-chip"><img src="images/partners/delta-telecom.svg" alt="Delta Telecom"><span>Delta Telecom</span></div>
+
+    </div>
+</div>
+
+<div class="footer-icons">
+<a href="#" class="icon-link ico-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" class="icon-link ico-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" class="icon-link ico-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" class="icon-link ico-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" class="icon-link ico-telegram" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+<a href="#" class="icon-link ico-x" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+<a href="#" class="icon-link ico-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#" class="icon-link ico-tiktok" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+
+<div class="footer-bas">
+<p>© 2026 Entente de Kipushi — Tous droits réservés</p>
+<p class="footer-credit">Championnat organisé par l'Entente Sportive de Kipushi</p>
+</div>
+</footer>
+
+<script defer src="js/script.js"></script>
+<script defer src="js/data-engine.js"></script>
+</body>
+</html>

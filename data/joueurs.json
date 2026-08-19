@@ -1,0 +1,1794 @@
+{
+  "js-porte-des-cieux": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "MWAMBA KAPENGA BOSS",
+        "poste": "Milieu",
+        "photo": "images/BOSS.jpeg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "cs-kamarenge": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-talents-de-kipushi": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "js-kamatete": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-kmb": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-munana": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-tourbillon": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "real-corcelone": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-bana-kipushi": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "ajax-club": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "tp-jeune-espoir": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-bradeurs": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-kilimasimba": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-biayi": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "us-kipushi": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  },
+  "fc-fbm": {
+    "staff": [
+      {
+        "role": "Entraîneur",
+        "nom": "Nom de l'entraîneur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "role": "Entraîneur adjoint",
+        "nom": "Nom de l'adjoint",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ],
+    "joueurs": [
+      {
+        "numero": 1,
+        "nom": "Joueur 1",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 2,
+        "nom": "Joueur 2",
+        "poste": "Gardien",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 3,
+        "nom": "Joueur 3",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 4,
+        "nom": "Joueur 4",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 5,
+        "nom": "Joueur 5",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 6,
+        "nom": "Joueur 6",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 7,
+        "nom": "Joueur 7",
+        "poste": "Défenseur",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 8,
+        "nom": "Joueur 8",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 9,
+        "nom": "Joueur 9",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 10,
+        "nom": "Joueur 10",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 11,
+        "nom": "Joueur 11",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 12,
+        "nom": "Joueur 12",
+        "poste": "Milieu",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 13,
+        "nom": "Joueur 13",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 14,
+        "nom": "Joueur 14",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 15,
+        "nom": "Joueur 15",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      },
+      {
+        "numero": 16,
+        "nom": "Joueur 16",
+        "poste": "Attaquant",
+        "photo": "images/joueur-placeholder.svg"
+      }
+    ]
+  }
+}

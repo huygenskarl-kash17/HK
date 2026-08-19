@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Compétition - Entente de Kipushi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/competition.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<div id="toast"></div>
+<header>
+<div class="menu-toggle">☰</div>
+<div class="logo">
+    <img src="images/logo-entente.svg" alt="logo">
+    <div><span>ENTENTE DE KIPUSHI</span><span class="logo-sub">Championnat de football</span></div>
+</div>
+<nav>
+<ul>
+<li><a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a></li>
+<li><a href="competition.html" class="active"><i class="fa-solid fa-trophy"></i> Compétition</a></li>
+<li><a href="equipes.html"><i class="fa-solid fa-shield-halved"></i> Équipes</a></li>
+<li><a href="calendrier.html"><i class="fa-solid fa-calendar-days"></i> Calendrier</a></li>
+<li><a href="classement.html"><i class="fa-solid fa-ranking-star"></i> Classement</a></li>
+<li><a href="statistiques.html"><i class="fa-solid fa-chart-simple"></i> Statistiques</a></li>
+<li><a href="annonces.html"><i class="fa-solid fa-bullhorn"></i> Annonces</a></li>
+<li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+</ul>
+</nav>
+<div class="nav-social-mini">
+<a href="#" aria-label="Facebook" class="ico-facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" aria-label="WhatsApp" class="ico-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" aria-label="YouTube" class="ico-youtube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" aria-label="Instagram" class="ico-instagram"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</header>
+
+<main>
+<section class="competition">
+
+<h1 class="titre">La Compétition</h1>
+
+<!-- 100% genere depuis data/competition.json -->
+<div class="comp-hero reveal-zoom">
+    <img src="images/logo-entente.svg" alt="Entente de Kipushi">
+    <p id="comp-intro">Chargement...</p>
+</div>
+
+<div class="card carte-texte reveal">
+    <h2 id="comp-presentation-titre"></h2>
+    <div id="comp-presentation-corps"></div>
+</div>
+
+<h2 class="sous-titre">Format de la compétition</h2>
+<div class="format-grid stagger" id="comp-format"></div>
+
+<h2 class="sous-titre">Points clés du règlement</h2>
+<ul class="reglement-liste reveal" id="comp-reglement"></ul>
+
+</section>
+</main>
+
+<footer>
+<div class="footer-logo"><img src="images/logo-entente.svg" alt="logo"> Entente de Kipushi</div>
+<p class="footer-slogan">Le championnat qui fait vibrer tous les quartiers de Kipushi.</p>
+
+<div class="footer-partenaires">
+    <p class="footer-partenaires-titre">Ils soutiennent l'Entente de Kipushi</p>
+    <div class="partenaires-grille">
+<div class="partenaire-chip"><img src="images/partners/equa-pichon.svg" alt="Equa Pichon"><span>Equa Pichon</span></div>
+<div class="partenaire-chip"><img src="images/partners/usalama.svg" alt="Usalama"><span>Usalama</span></div>
+<div class="partenaire-chip"><img src="images/partners/munana-group.svg" alt="Munana Group"><span>Munana Group</span></div>
+<div class="partenaire-chip"><img src="images/partners/kamarenge.svg" alt="Kamarenge"><span>Kamarenge</span></div>
+<div class="partenaire-chip"><img src="images/partners/kipushi-mining-corp.svg" alt="Kipushi Mining Corp"><span>Kipushi Mining Corp</span></div>
+<div class="partenaire-chip"><img src="images/partners/lubumbashi-motors.svg" alt="Lubumbashi Motors"><span>Lubumbashi Motors</span></div>
+<div class="partenaire-chip"><img src="images/partners/katanga-fresh.svg" alt="Katanga Fresh"><span>Katanga Fresh</span></div>
+<div class="partenaire-chip"><img src="images/partners/delta-telecom.svg" alt="Delta Telecom"><span>Delta Telecom</span></div>
+    </div>
+    </div>
+</div>
+
+<div class="footer-icons">
+<a href="#" class="icon-link ico-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" class="icon-link ico-whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" class="icon-link ico-youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+<a href="#" class="icon-link ico-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" class="icon-link ico-telegram" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+<a href="#" class="icon-link ico-x" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+<a href="#" class="icon-link ico-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#" class="icon-link ico-tiktok" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+
+<div class="footer-bas">
+<p>© 2026 Entente de Kipushi — Tous droits réservés</p>
+<p class="footer-credit">Championnat organisé par l'Entente Sportive de Kipushi</p>
+</div>
+</footer>
+
+<script defer src="js/script.js"></script>
+<script defer src="js/competition.js"></script>
+</body>
+</html>

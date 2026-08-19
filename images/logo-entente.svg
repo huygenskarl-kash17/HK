@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="56" fill="#0d2240" stroke="#e8641a" stroke-width="4"/>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <text x="60" y="52" font-family="Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle" fill="#ffffff">ENTENTE</text>
+  <text x="60" y="72" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#e8641a">DE KIPUSHI</text>
+  <path d="M40 82 L50 92 L80 62" stroke="#e8641a" stroke-width="0" fill="none"/>
+</svg>

@@ -1,0 +1,116 @@
+{
+  "maj": "05 Juillet 2026 - 14h00",
+
+  "programme": [
+    { "type": "match", "jour_court": "Sam", "jour_num": "18", "mois_court": "Juil.",
+      "etiquette": "Championnat · J2", "domicile": "FC Bradeurs", "exterieur": "FC Tourbillon",
+      "texte": "17h00 — Stade Municipal de Kipushi. Le choc des deux seules équipes encore invaincues." },
+    { "type": "match", "jour_court": "Sam", "jour_num": "18", "mois_court": "Juil.",
+      "etiquette": "Championnat · J2", "domicile": "FC KMB", "exterieur": "FC Talents de Kipushi",
+      "texte": "18h00 — Stade Municipal de Kipushi." },
+    { "type": "match", "jour_court": "Sam", "jour_num": "18", "mois_court": "Juil.",
+      "etiquette": "Championnat · J2", "domicile": "FC Bana Kipushi", "exterieur": "JS Porte des Cieux",
+      "texte": "19h00 — Stade Municipal de Kipushi." },
+    { "type": "match", "jour_court": "Sam", "jour_num": "18", "mois_court": "Juil.",
+      "etiquette": "Championnat · J2", "domicile": "JS Kamatete", "exterieur": "CS Kamarenge",
+      "texte": "20h00 — Stade Municipal de Kipushi. Clôture de la 2ᵉ journée." },
+    { "type": "reunion", "jour_court": "Mer", "jour_num": "22", "mois_court": "Juil.",
+      "titre": "Assemblée générale des présidents de clubs",
+      "texte": "16h00 — Salle communale de Kipushi. Point à mi-parcours et calendrier des phases retour." },
+    { "type": "formation", "jour_court": "Jeu", "jour_num": "23", "mois_court": "Juil.",
+      "titre": "Recyclage des arbitres &amp; délégués de terrain",
+      "texte": "15h00 — Centre sportif de Kipushi. Remise à niveau avant la 3ᵉ journée." },
+    { "type": "social", "jour_court": "Ven", "jour_num": "24", "mois_court": "Juil.",
+      "titre": "Journée de reboisement citoyen des 16 clubs",
+      "texte": "08h00 — Avenue Lumumba. Chaque club engage ses joueurs et supporters pour planter des arbres dans les quartiers de Kipushi." },
+    { "type": "match", "jour_court": "Sam", "jour_num": "25", "mois_court": "Juil.",
+      "etiquette": "Championnat · J3", "titre": "8 rencontres de la 3ᵉ journée",
+      "texte": "13h00 à 20h00 — Stade Municipal de Kipushi, dont deux chocs à ne pas manquer (détails plus bas).",
+      "lien": { "href": "calendrier.html", "texte": "Programme complet →" } },
+    { "type": "solidarite", "jour_court": "Dim", "jour_num": "26", "mois_court": "Juil.",
+      "titre": "Collecte de dons pour l'Hôpital Général de Kipushi",
+      "texte": "10h00 — Stade Municipal de Kipushi. Une initiative commune des 16 clubs de l'Entente, en marge de la journée 3." }
+  ],
+
+  "communiques": [
+    {
+      "type": "video",
+      "date_pub": "05 Juillet 2026",
+      "titre": "Le résumé de la Journée 1 en vidéo",
+      "texte": "Revivez les meilleurs moments et les plus beaux buts de la première journée du championnat.",
+      "youtube_id": "dQw4w9WgXcQ"
+    },
+    {
+      "type": "choc",
+      "date_pub": "Samedi 25 Juillet 2026",
+      "titre": "Le sommet du championnat : US Kipushi – Ajax Club",
+      "texte": "Le dauphin reçoit le leader invaincu. Une victoire de l'US Kipushi relancerait totalement la course au titre.",
+      "couleur1": "#2980b9", "couleur2": "#d32f2f",
+      "heure": "17h00", "lieu": "Stade Municipal de Kipushi",
+      "domicile": { "nom": "US Kipushi", "badge": "images/badges/us-kipushi.svg", "rang": "2ᵉ", "pts": 4 },
+      "exterieur": { "nom": "Ajax Club", "badge": "images/badges/ajax-club.svg", "rang": "1ᵉʳ", "pts": 6 }
+    },
+    {
+      "type": "choc",
+      "date_pub": "Samedi 18 Juillet 2026",
+      "titre": "Le choc des invaincus : FC Bradeurs – FC Tourbillon",
+      "texte": "Les deux seules équipes encore invaincues de la compétition se neutralisent... ou l'une d'elles va tomber. Rendez-vous en fin d'après-midi.",
+      "couleur1": "#8d6e63", "couleur2": "#f1c40f",
+      "heure": "17h00", "lieu": "Stade Municipal de Kipushi",
+      "domicile": { "nom": "FC Bradeurs", "badge": "images/badges/fc-bradeurs.svg", "rang": "3ᵉ", "pts": 3 },
+      "exterieur": { "nom": "FC Tourbillon", "badge": "images/badges/fc-tourbillon.svg", "rang": "4ᵉ", "pts": 3 }
+    },
+    {
+      "type": "choc",
+      "date_pub": "Samedi 25 Juillet 2026",
+      "titre": "Ça grimpe au classement : JS Porte des Cieux – FC KMB",
+      "texte": "Deux équipes séparées par un seul point se disputent une place sur le podium provisoire.",
+      "couleur1": "#1e88e5", "couleur2": "#1a3a6b",
+      "heure": "14h00", "lieu": "Stade Municipal de Kipushi",
+      "domicile": { "nom": "JS Porte des Cieux", "badge": "images/badges/js-porte-des-cieux.svg", "rang": "5ᵉ", "pts": 3 },
+      "exterieur": { "nom": "FC KMB", "badge": "images/badges/fc-kmb.svg", "rang": "6ᵉ", "pts": 3 }
+    },
+    {
+      "type": "resultat",
+      "date_pub": "11 Juillet 2026",
+      "titre": "Résultats complets de la Journée 1",
+      "texte": "Une première journée riche en buts pour le lancement de l'Entente de Kipushi !",
+      "matchs": [
+        { "equipe1": "JS Kamatete", "score1": 3, "score2": 3, "equipe2": "US Kipushi" },
+        { "equipe1": "Real Corcelone", "score1": 0, "score2": 1, "equipe2": "Ajax Club" },
+        { "equipe1": "FC Biayi", "score1": 0, "score2": 4, "equipe2": "FC Bradeurs" },
+        { "equipe1": "FC KMB", "score1": 3, "score2": 0, "equipe2": "FC Munana" },
+        { "equipe1": "FC Kilimasimba", "score1": 4, "score2": 0, "equipe2": "FC Bana Kipushi" },
+        { "equipe1": "CS Kamarenge", "score1": 1, "score2": 4, "equipe2": "JS Porte des Cieux" },
+        { "equipe1": "FC FBM", "score1": 0, "score2": 4, "equipe2": "FC Tourbillon" },
+        { "equipe1": "FC Talents de Kipushi", "score1": 4, "score2": 3, "equipe2": "TP Jeune Espoir" }
+      ],
+      "photos": ["images/Matchdujour.jpeg", "images/Ambiance.jpeg", "images/Actiondejeu.jpeg"]
+    },
+    {
+      "type": "resultat",
+      "date_pub": "18 Juillet 2026",
+      "titre": "Journée 2 : ça chauffe dès le début d'après-midi",
+      "texte": "Ajax Club confirme son statut de leader, pendant que l'US Kipushi tente de suivre le rythme en direct du stade.",
+      "matchs": [
+        { "equipe1": "FC Biayi", "score1": 4, "score2": 0, "equipe2": "Real Corcelone" },
+        { "equipe1": "Ajax Club", "score1": 4, "score2": 0, "equipe2": "FC Kilimasimba" },
+        { "equipe1": "TP Jeune Espoir", "score1": 4, "score2": 1, "equipe2": "FC FBM" },
+        { "equipe1": "US Kipushi", "score1": 2, "score2": 0, "equipe2": "FC Munana", "en_direct": true }
+      ]
+    },
+    {
+      "type": "communique-officiel",
+      "date_pub": "01 Juillet 2026",
+      "titre": "Lancement officiel de l'Entente de Kipushi",
+      "texte": "Les 16 équipes sont confirmées pour cette première saison. Le calendrier complet est disponible sur la page Calendrier. Bonne saison à toutes les équipes !"
+    },
+    {
+      "type": "evenement",
+      "date_pub": "14 Juillet 2026",
+      "titre": "Les 16 clubs main dans la main pour reboiser Kipushi",
+      "texte": "Le 24 juillet, chaque club de l'Entente enverra une délégation de joueurs et de supporters planter des arbres le long de l'avenue Lumumba, en partenariat avec la mairie. Une collecte de dons pour l'Hôpital Général de Kipushi suivra le lendemain de la Journée 3. Le football rassemble aussi en dehors du terrain.",
+      "photos": ["images/joueur-placeholder.jpeg"]
+    }
+  ]
+}
